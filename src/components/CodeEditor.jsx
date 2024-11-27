@@ -21,21 +21,6 @@ const CodeEditor = () => {
 
   return (
     <div className="h-full w-full flex flex-col gap-4 bg-gray-900 text-white p-4">
-      {/* Top Bar */}
-      <div className="flex justify-between items-centerp-2 rounded">
-        <select
-          id="language"
-          className="bg-gray-700 text-white border border-gray-600 rounded p-1"
-          value={language}
-          onChange={handleLanguageChange}
-        >
-          <option value="javascript">JavaScript</option>
-          <option value="python">Python</option>
-          <option value="typescript">TypeScript</option>
-          <option value="css">CSS</option>
-          <option value="html">HTML</option>
-        </select>
-      </div>
 
       {/* Editor and Output Section */}
       <div className="flex flex-row gap-4 h-full">
